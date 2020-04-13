@@ -1,0 +1,46 @@
+body #root {
+    font-family: "Lato";
+}
+
+.page-wrapper {
+    display: flex;
+    height: 100vh;
+    flex: 1;
+}
+
+.menuHeader {
+    height: 50px;
+}
+
+.menuContainer {
+    width: auto !important; /* real browsers */
+    min-width: 75%; 
+}
+
+.layoutContainer {
+    min-width: 75%;
+    padding-left: 2rem;
+    padding-right: 2rem; 
+}
+
+.main-wrapper {
+    width: auto !important;
+}
+
+.spanClass {
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+}
+
+.metaCard {
+    font-size: 12px !important;
+}
+
+.latestBuilds {
+    float: right;
+}
+
+.footer {
+    height: 50px;
+}
